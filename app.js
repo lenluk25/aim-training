@@ -86,6 +86,5 @@ function setColor(element) {
 
 function getRandomColor() {
   const index = Math.floor(Math.random() * colors.length)
-console.log(';=sdf', index);
   return colors[index]
 }
